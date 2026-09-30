@@ -45,6 +45,8 @@ Backend Engineer building production server-side systems, RESTful APIs and event
 | **[linkforge](https://github.com/amanullah18/linkforge)** | URL shortener & click-analytics API — JWT auth, rate limiting, custom slugs, expiry and per-user analytics. Layered architecture with a swappable storage interface. | TypeScript · Express · zod · JWT |
 | **[taskpipe](https://github.com/amanullah18/taskpipe)** | Background job queue service — priority ordering, delayed jobs, retries with exponential backoff, dead-letter queue and a concurrency-limited worker. | TypeScript · Express · zod |
 | **[pulsehub](https://github.com/amanullah18/pulsehub)** | Real-time notifications service over WebSockets — JWT-authenticated Socket.IO, channels, presence tracking, history replay and a REST publish API. | TypeScript · Socket.IO · JWT |
+| **[audio-transcriber](https://github.com/amanullah18/audio-transcriber)** | Self-hosted speech-to-text API with Whisper — async job queue with crash recovery and retries, per-key API auth, HMAC-signed webhooks with SSRF protection, VTT/SRT subtitles, 100 languages. Ships with a WordPress plugin (interactive transcript block, auto-captions, WP-CLI). | Python · FastAPI · PostgreSQL · Redis/RQ · Docker · PHP |
+
 
 > Each repo ships with a clean feature-by-feature commit history, unit + integration tests, GitHub Actions CI, and Docker packaging.
 
